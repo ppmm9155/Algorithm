@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		/* 
+		long int  4byte 
+		long long int 8byte
+		long long long int 12byte
+		long long long long int 16byte 
+		
+		*/
+		
+		int N;
+		String str = "long";
+		
+		N = sc.nextInt();
+		
+		N= N/4;
+		
+		for(int i=0; i<N;i++)
+		{
+		    System.out.print(str+" ");
+		    
+		}
+		
+		System.out.println("int");
+		
+		
+	}
+}
